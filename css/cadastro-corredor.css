@@ -1,0 +1,68 @@
+/*TITUTLO*/
+h1 {
+    text-align: center;
+    border-bottom: 1px solid #4d4d4d;
+}
+#buscaCep {
+    padding: 0;
+    padding: 5px;
+}
+
+/*TEXTO*/
+#texto {
+    margin-top: 1em;
+}
+#texto p {
+    line-height: 1.5em;
+    text-indent: 1em;
+    text-align: justify;
+}
+
+
+/*
+FORMULARIO
+*/
+#form {
+    background-color: #f2f2f2;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: .5em;
+}
+
+form input, select {
+    width: 100%;
+    padding: 12px 0;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.botao {
+    margin: 8px 0;
+    width: 100%;
+}
+
+#cadastro-corredor {
+    margin-top: -.5em;
+}
+
+#cadastro-corredor h2 {
+	padding: 10px;
+}
+#cadastro-corredor form div {
+	text-align: center;
+	padding: 10px;
+}
+
+/*
+MEDIA QUERIES
+*/
+
+@media screen and (min-width: 720px) {
+    /*
+    FORM
+    */
+    h1 {
+        text-align: left;
+    }
+}
